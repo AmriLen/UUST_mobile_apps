@@ -1,4 +1,4 @@
-# lab_1
+# uust_mobile_apps
 
 A new Flutter project.
 
