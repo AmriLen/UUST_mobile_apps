@@ -1,7 +1,4 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 import 'package:uust_mobile_apps/drawer.dart';
 import 'package:uust_mobile_apps/constants.dart';
@@ -35,8 +32,7 @@ class _AboutPageState extends State<AboutPage> {
             Text("Волков Иван Сергеевич", style: unbReg,),
             Text("Думчев Иван Николаевич", style: unbReg,),
             SizedBox(height: 20),
-            Text("Версия: ", style: unbReg,),
-            //Text($version, style: unbReg,),
+            Text('Версия: $versionApp', style: unbReg,),
           ],
         )
       ),

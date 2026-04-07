@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+const versionApp = '0.0.3';
+
 const unbReg = TextStyle(fontFamily: 'Unbounded', fontSize: 16);
 const unbRegW = TextStyle(fontFamily: 'Unbounded', fontSize: 16, color: Colors.white);
 const unbRegMin = TextStyle(fontFamily: 'Unbounded', fontSize: 12);
