@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:uust_mobile_apps/LabScreens/Lab1_Screen.dart';
+import 'package:uust_mobile_apps/LabScreens/Lab1_Screen/Lab1_Screen.dart';
 
 
 void main() => runApp(MyApp());

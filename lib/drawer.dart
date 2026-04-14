@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:uust_mobile_apps/about.dart';
 
 import 'package:uust_mobile_apps/constants.dart';
-import 'package:uust_mobile_apps/LabScreens/Lab1_Screen.dart';
-import 'package:uust_mobile_apps/LabScreens/Lab2_Screen.dart';
-import 'package:uust_mobile_apps/LabScreens/Lab3_Screen.dart';
-import 'package:uust_mobile_apps/LabScreens/Lab4_Screen.dart';
+import 'package:uust_mobile_apps/LabScreens/Lab1_Screen/Lab1_Screen.dart';
+import 'package:uust_mobile_apps/LabScreens/Lab2_Screen/Lab2_Screen.dart';
+import 'package:uust_mobile_apps/LabScreens/Lab3_Screen/Lab3_Screen.dart';
+import 'package:uust_mobile_apps/LabScreens/Lab4_Screen/Lab4_Screen.dart';
 
 
 class MainDrawer extends StatefulWidget {

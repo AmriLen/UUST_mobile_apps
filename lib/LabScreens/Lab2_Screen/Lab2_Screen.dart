@@ -32,7 +32,7 @@ class _Lab2State extends State<Lab2> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: MainDrawer(),
-      appBar: AppBar(title: Text('ЛР2: Camino de Santiago')),
+      appBar: AppBar(title: Text('ЛР2: Camino de Santiago', style: unbReg)),
       body: errorMessage != null
           ? customErrorWidget(errorMessage!)
           : isLoading == true
