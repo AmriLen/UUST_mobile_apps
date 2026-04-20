@@ -44,7 +44,7 @@ class _MainDrawerState extends State<MainDrawer> {
           ListTile(
             leading: Icon(Icons.map, size: 20,),
             title: Text('Лабораторная работа 2', style: unbRegMin),
-            subtitle: Text('Camino de Santiago', style: unbRegMin),
+            subtitle: Text('Путь Святого Иакова', style: unbRegMin),
             onTap: (){
               Navigator.pop(context);
               Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => const Lab2()),);

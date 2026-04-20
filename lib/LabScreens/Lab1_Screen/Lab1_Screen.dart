@@ -200,7 +200,7 @@ class _Lab1State extends State<Lab1> {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: MainDrawer(),
-      appBar: AppBar(title: const Text('ЛР1: Геолокация и датчики', style: unbReg,)),
+      appBar: AppBar(title: const Text('Геолокация и датчики', style: unbReg,)),
       body: errorMessage != null
           ? customErrorWidget(errorMessage!)
           : currentPosition == null
