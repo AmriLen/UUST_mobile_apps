@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const versionApp = '0.3.16';
+const versionApp = '0.3.18';
 
 const unbRegBig = TextStyle(fontFamily: 'Unbounded', fontSize: 20);
 const unbReg = TextStyle(fontFamily: 'Unbounded', fontSize: 16);
